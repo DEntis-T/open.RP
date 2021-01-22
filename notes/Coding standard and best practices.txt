@@ -11,9 +11,9 @@ sa ničim
 
 općenito code style - provrtiti kroz vscodeov prettier ili sličnu ekstenziju
 ja želim da PAWN bude čisti Allman, znači nema nigdje K&R:
-if () { // NE
+if() { // NE
 
-if ()
+if()
 {
     // DA
 }
@@ -29,15 +29,15 @@ Vidjeti koje su druge najbolje prakse ali također bih želio izbjeći sljedeće
 vitičastih zagrada koje okružuju taj uvjet. razlozi su što je veća mogućnost za pojavom buga i teže je čitati
 takav kod (barem meni osobno). prije sam jako zagovarao i sam koristio sljedeće primjere:
 
-if (uvjet) break;
+if(uvjet) break;
 
-if (uvjet)
+if(uvjet)
     return;
 
 i slične, sada kad znam bolje, po mom mišljenju, samo škode čitljivosti koda i veća je mogućnost da se unese neki bug,
 drugo, ako se želi ubaciti dodatan statement/naredba, treba ići dodavati vitičaste što se moglo napraviti i u početku:
 
-if (uvjet)
+if(uvjet)
 {
     // još naredbi
     return;
