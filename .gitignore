@@ -19,18 +19,15 @@ pawn.lock
 #
 
 # compiled settings file
-# keep `pawn.json` file on version control
+# keep `samp.json` file on version control
 # but make sure the `rcon_password` field is set externally
 # you can use the environment variable `SAMP_RCON_PASSWORD` to do this.
-#server.cfg
+server.cfg
 
 # Plugins directory
 plugins/
 
-# Old Modules directory
-gamemodes/modules\Old
-
-# Binaries
+# binaries
 *.exe
 *.dll
 *.so
@@ -38,7 +35,7 @@ announce
 samp03svr
 samp-npc
 
-# Logs
+# logs
 logs/
 server_log.txt
 crashinfo.txt
@@ -47,15 +44,7 @@ crashinfo.txt
 samp.ban
 
 #
-# Private resources
+# Common files
 #
-# N/A
 
-# Windows shortcuts
-*.lnk
-
-# Python stuff
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyc
+*.sublime-workspace
