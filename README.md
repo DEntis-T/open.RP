@@ -2,6 +2,10 @@
 Open sourced server codes(including maps & custom models) & files of RP server, up to programming standards, 
 for upcoming open.mp modification of GTA San Andreas, written mostly in embedded C(pawn) and database in SQL.
 
+# Warning
+
+- This project is not mine, I'm only contributing to it. You can get original code on **ZanderOperator/open.RP**!
+
 ## Installation
 To take full advantage of developing experience, please download and install sampctl by Southclaws.
 
