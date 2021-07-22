@@ -909,114 +909,114 @@ enum E_RUG_OBJECT_DATA
     rName[20],
     rPrice
 }
-new const ObjectsRugs[][E_RUG_OBJECT_DATA] =
+new const ObjectsRugs [] [E_RUG_OBJECT_DATA] =
 {
-    {1828,    "Tepih"        ,    200},
-    {2815,    "Rozi tepih"   ,    300},
-    {2817,    "Svetloplavi " ,    400},
-    {2818,    "Crveni tepih" ,    430},
-    {2833,    "Braon tepih"  ,    420},
-    {2834,    "Krem tepih"   ,    480},
-    {2835,    "Okrugli beli" ,    530},
-    {2836,    "Beli tepih"   ,    425},
-    {2841,    "Okrugli plavi",    425},
-    {2842,    "Ljubicasti"   ,    490},
-    {2847,    "Narandzasti"  ,    500}
+    {1828, "Carpet", 200},
+    {2815, "Pink Carpet", 300},
+    {2817, "Light Blue", 400},
+    {2818, Red Carpet, 430},
+    {2833, "Brown Carpet", 420},
+    {2834, "Cream Carpet", 480},
+    {2835, "Round White", 530},
+    {2836, White Carpet, 425},
+    {2841, "Round Blue", 425},
+    {2842, Purple, 490},
+    {2847, Orange, 500}
 };
 
 enum E_FRIDGE_OBJECT_DATA
 {
     frId,
-    frName[22],
+    frName [22],
     frPrice
 }
-new const ObjectsFridge[][E_FRIDGE_OBJECT_DATA] =
+new const ObjectsFridge [] [E_FRIDGE_OBJECT_DATA] =
 {
-    {2127 ,    "Dupli crveni frizider",    480},
-    {2128 ,    "Crveni frizider"      ,    400},
-    {2131 ,    "Siroki beli frizider" ,    500},
-    {2140 ,    "Drveni frizider"      ,    465},
-    {2141 ,    "Beli frizider"        ,    395},
-    {2147 ,    "Sivi frizider"        ,    425},
-    {2452 ,    "Zamrzivac"            ,    100},
-    {19916,    "Stari frizider"       ,    123},
-    {-2077,    "Frizider sa hranom"   ,    350}
+    {2127, "Double Red Fridge," 480},
+    {2128, "Red Fridge", 400},
+    {2131, "Wide White Refrigerator," 500},
+    {2140, Wooden Refrigerator, 465},
+    {2141, "White Fridge," 395},
+    {2147, "Gray Fridge," 425},
+    {2452, "Freezer", 100},
+    {19916, "Old Fridge", 123},
+    {-2077, "Food Fridge", 350}
 };
 
 enum E_KITCH_CABINETS_OBJECT_DATA
 {
     kcId,
-    kcName[37],
+    kcName [37],
     kcPrice
 }
-new const ObjectsKitchenCabinets[][E_KITCH_CABINETS_OBJECT_DATA] =
+new const ObjectsKitchenCabinets [] [E_KITCH_CABINETS_OBJECT_DATA] =
 {
-    {2014 ,    "Zidni ormar i radni deo1"  ,    360},
-    {2015 ,    "Zidni ormar i radni deo2"  ,    360},
-    {11686,    "Drveni sank"               ,    500},
-    {2016 ,    "Zidni ormar i radni deo3"  ,    360},
-    {2022 ,    "Ugaoni radni deo i ormar"  ,    360},
-    {2129 ,    "Crveni ormar i radni1"     ,    360},
-    {2133 ,    "Beli radnio deo i fioke"   ,    400},
-    {2134 ,    "Beli radnio deo i kredenac",    400},
-    {2137 ,    "Drveni zidni ormar i radni",    400},
-    {2139 ,    "Drveni radni"              ,    360},
-    {2142 ,    "Drveni ormar"              ,    230},
-    {2145 ,    "Visoki drveni ormar"       ,    300},
-    {2156 ,    "Zeleni radni dio1"         ,    250},
-    {2157 ,    "Zeleni radni dio2"         ,    250},
-    {2158 ,    "Visoki drveni ormar"       ,    350},
-    {2338 ,    "Ugaoni zeleni radni deo"   ,    300},
-    {2341 ,    "Ugaoni beli radni deo"     ,    350},
-    {19927,    "Sudoper"                   ,    260}
+    {2014, "Wall cabinet and work part1", 360},
+    {2015, "Wall cabinet and work part2", 360},
+    {11686, Wooden Sledge, 500},
+    {2016, "Wall cabinet and work part3", 360},
+    {2022, "Corner Work and Cabinet", 360},
+    {2129, "Red Wardrobe and Work1", 360},
+    {2133, "White work area and drawers", 400},
+    {2134, "White Workpiece and Cupboard," 400},
+    {2137, "Wooden wall cabinet and work", 400},
+    {2139, Wooden Workers, 360},
+    {2142, Wooden Wardrobe, 230},
+    {2145, "Tall Wooden Wardrobe," 300},
+    {2156, "Green Working Part 1", 250},
+    {2157, "Green Working Part 2", 250},
+    {2158, "Tall Wooden Wardrobe," 350},
+    {2338, "Corner Green Workpiece", 300},
+    {2341, "Corner White Work", 350},
+    {19927, "Sink", 260}
 };
 
 enum E_KITCH_DISHES_OBJECT_DATA
 {
     dishId,
-    dishName[18],
+    dishName [18],
     dishPrice
 }
-new const ObjectsKitchenDishes[][E_KITCH_DISHES_OBJECT_DATA] =
+new const ObjectsKitchenDishes [] [E_KITCH_DISHES_OBJECT_DATA] =
 {
-    {11718,    "Lonac"           ,     50},
-    {19584,    "Lonac2"          ,     50},
-    {19585,    "Lonac3"          ,     50},
-    {19581,    "Tava"            ,     70},
-    {19583,    "Noz"             ,     30},
-    {11715,    "Vilica"          ,     20},
-    {11716,    "Noz"             ,     20},
-    {19586,    "Spatula"         ,     50},
-    {19809,    "Plato"           ,     20},
-    {19830,    "Blender"         ,    100},
-    {11743,    "Kafe aparat"     ,    120},
-    {11744,    "Tanjur"          ,     20},
-    {2865 ,    "Oprano sudje"    ,     60},
-    {2850 ,    "Prljavo sudje1"  ,     50},
-    {2832 ,    "Prljavo sudje2"  ,     50},
-    {1455 ,    "Casa1"           ,     10},
-    {1667 ,    "Casa vina"       ,     15},
-    {19818,    "Prazna casa vina",     10},
-    {19819,    "Casa koktel"     ,     10},
-    {1666 ,    "Casa2"           ,     10},
-    {1546 ,    "Casa3"           ,     10}
+    {11718, "Pot", 50},
+    {19584, "Pot 2", 50},
+    {19585, "Pot 3", 50},
+    {19581, "Frying Pan", 70},
+    {19583, "Noz", 30},
+    {11715, Fork, 20},
+    {11716, "Noz", 20},
+    {19586, Spatula, 50},
+    {19809, Plato, 20},
+    {19830, Blender, 100},
+    {11743, "Coffee machine", 120},
+    {11744, "Plate", 20},
+    {2865, "Washed Judges", 60},
+    {2850, "Prljavo sudje1", 50},
+    {2832, "Prljavo sudje2", 50},
+    {1455, "Casa1", 10},
+    {1667, "Casa vina", 15},
+    {19818, "Empty Glass of Wine," 10},
+    {19819, "Casa Cocktail", 10},
+    {1666, "Casa2", 10},
+    {1546, Casa3, 10}
 };
 
 enum E_SINK_OBJECT_DATA
 {
     snkId,
-    snkName[41],
+    snkName [41],
     snkPrice
 }
-new const ObjectsSink[][E_SINK_OBJECT_DATA] =
+new const ObjectsSink [] [E_SINK_OBJECT_DATA] =
 {
-    {2013,    "Drveni ormar sa sudoperom"    ,    450},
-    {2132,    "Beli ormar sa sudoperom"      ,    500},
-    {2136,    "Drveni element sa sudoperom"  ,    550},
-    {2160,    "Zeleni ormar sa sudoperom"    ,    350},
-    {2336,    "Zeleni radni deo sa sudoperom",    350},
-    {2515,    "Okrugla sudopera"             ,    200},
-    {2518,    "Kockasta sudopera"            ,    285}
+    {2013, "Wooden cupboard with sink", 450},
+    {2132, "White Wardrobe with Sink", 500},
+    {2136, "Wooden element with sink", 550},
+    {2160, "Green Wardrobe with Sink", 350},
+    {2336, "Green work area with sink", 350},
+    {2515, "Round Sink", 200},
+    {2518, "Cube Sink", 285}
 };
 
 enum E_TABLES_OBJECT_DATA
@@ -1025,111 +1025,111 @@ enum E_TABLES_OBJECT_DATA
     tablName[33],
     tablPrice
 }
-new const ObjectsTables[][E_TABLES_OBJECT_DATA] =
+new const ObjectsTables [] [E_TABLES_OBJECT_DATA] =
 {
-    {2126 ,    "Mali stol"                  ,    150},
-    {2331 ,    "Mali stol2"                 ,    100},
-    {2209 ,    "Kancelarijski stol"         ,    200},
-    {2210 ,    "Staklena polica1"           ,    190},
-    {2211 ,    "Staklena polica2"           ,    190},
-    {2311 ,    "Siroki drveni stol"         ,    100},
-    {2313 ,    "Televizor sa CD playerom"   ,     80},
-    {2314 ,    "Sto za televizor"           ,    100},
-    {2315 ,    "Drveni stol za televizor"   ,    100},
-    {2319 ,    "Starinski stol za televizor",     90},
-    {2346 ,    "Siroki kredenac"            ,     90},
-    {2370 ,    "Niska polica"               ,     90},
-    {2024 ,    "Stakleni stol"              ,    250},
-    {19922,    "Siroki stol"                ,    200},
-    {19997,    "Stol na rasklapanje"        ,    150},
-    {1433 ,    "Mali drveni kockasti1"      ,    490},
-    {1516 ,    "Mali drveni kockasti2"      ,    490},
-    {1737 ,    "Moderni drveni"             ,    560},
-    {1770 ,    "Stari beli"                 ,    350},
-    {2029 ,    "Uski drveni"                ,    600},
-    {2030 ,    "Mermerni okrugli"           ,    500},
-    {2031 ,    "Drveni elipsasti"           ,    560},
-    {2032 ,    "Crni drveni"                ,    560},
-    {2080 ,    "Crni elipsasti"             ,    560},
-    {2085 ,    "Stakleni"                   ,    600},
-    {2086 ,    "Okrugli stakleni"           ,    600},
-    {2109 ,    "Okrugli drveni stp"         ,    400},
-    {2111 ,    "Niski okrugli drveni"       ,    490},
-    {2112 ,    "Niski kockasti drveni"      ,    490},
-    {2115 ,    "Kuhinjski drveni1"          ,    490},
-    {2116 ,    "Kuhinjski drveni2"          ,    490},
-    {2117 ,    "Kuhinjski drveni3"          ,    560},
-    {2118 ,    "Mermerni"                   ,    520},
-    {2357 ,    "Dugacki drveni"             ,    700},
-    {2764 ,    "Pizzastack"                 ,    600},
-    {2119 ,    "Medium za veceranje"        ,    520},
-    {2110 ,    "Niski za veceranje"         ,    350},
-    {1819 ,    "Coffeeic"                   ,    150},
-    {1813 ,    "Coffeeic1"                  ,    150},
-    {1814 ,    "Coffeeic2"                  ,    160},
-    {1815 ,    "Coffeeic3"                  ,    160},
-    {1816 ,    "Coffeeic4"                  ,    150},
-    {1817 ,    "Coffeeic5"                  ,    150},
-    {1818 ,    "Coffeeic6"                  ,    140},
-    {1819 ,    "Coffeeic7"                  ,    140},
-    {1820 ,    "Coffeeic8"                  ,    140},
-    {1821 ,    "Coffeeic9"                  ,    140},
-    {1822 ,    "Coffeeic10"                 ,    150},
-    {1823 ,    "Coffeeic11"                 ,    160},
-    {2081 ,    "Coffeeic12"                 ,    150},
-    {2082 ,    "Coffeeic13"                 ,    160},
-    {2083 ,    "Coffeeic14"                 ,    160},
-    {2126 ,    "Coffeeic15"                 ,    150},
-    {2236 ,    "Coffeeic16"                 ,    150}
+    {2126, "Small Table", 150},
+    {2331, "Small Table 2", 100},
+    {2209, "Office Desk", 200},
+    {2210, "Glass Shelf1", 190},
+    {2211, "Glass Shelf 2", 190},
+    {2311, "Wide Wooden Table", 100},
+    {2313, "TV with CD player", 80},
+    {2314, "TV Table", 100},
+    {2315, "Wooden TV table", 100},
+    {2319, "Antique TV Table", 90},
+    {2346, "Siroki kredenac", 90},
+    {2370, "Low Shelf", 90},
+    {2024, "Glass Table", 250},
+    {19922, "Wide Table", 200},
+    {19997, "Folding Table", 150},
+    {1433, "Small wooden cube1", 490},
+    {1516, "Small wooden cubes2", 490},
+    {1737, "Modern Wooden", 560},
+    {1770, Old White, 350},
+    {2029, Narrow Wooden, 600},
+    {2030, Marble Round, 500},
+    {2031, "Wooden Elliptical", 560},
+    {2032, "Black Wooden", 560},
+    {2080, Black Ellipse, 560},
+    {2085, "Glass", 600},
+    {2086, "Round Glass", 600},
+    {2109, "Round wooden stp", 400},
+    {2111, "Low Round Wooden", 490},
+    {2112, "Low Cube Wooden," 490},
+    {2115, "Kitchen wooden1", 490},
+    {2116, "Kitchen Wooden2", 490},
+    {2117, "Kitchen wooden3", 560},
+    {2118, Marble, 520},
+    {2357, "Dugacki drveni", 700},
+    {2764, Pizzastack, 600},
+    {2119, "Medium for Dinner", 520},
+    {2110, "Low for Dinner," 350},
+    {1819, Coffeeic, 150},
+    {1813, "Coffeeic1", 150},
+    {1814, "Coffeeic2", 160},
+    {1815, "Coffeeic3", 160},
+    {1816, "Coffeeic4", 150},
+    {1817, "Coffeeic5", 150},
+    {1818, "Coffeeic6", 140},
+    {1819, "Coffeeic7", 140},
+    {1820, Coffeeic8, 140},
+    {1821, "Coffeeic9", 140},
+    {1822, "Coffeeic10", 150},
+    {1823, "Coffeeic11", 160},
+    {2081, "Coffeeic12", 150},
+    {2082, "Coffeeic13", 160},
+    {2083, "Coffeeic14", 160},
+    {2126, "Coffeeic15", 150},
+    {2236, "Coffeeic16", 150}
 };
 
 enum E_CHAIRS_OBJECT_DATA
 {
     chId,
-    chName[30],
+    chName [30],
     chPrice
 }
-new const ObjectsChair[][E_CHAIRS_OBJECT_DATA] =
+new const ObjectsChair [] [E_CHAIRS_OBJECT_DATA] =
 {
-    {1720 ,    "Visoka bela"           ,    100},
-    {1721 ,    "Uglasta"               ,     50},
-    {1739 ,    "Visoka braon"          ,    200},
-    {1810 ,    "Stolica na rasklapanje",     50},
-    {1811 ,    "Niska drvena"          ,    200},
-    {2079 ,    "Niska crna"            ,    170},
-    {2120 ,    "Niska braon"           ,    170},
-    {2121 ,    "Crvena na rasklapanje" ,     70},
-    {2123 ,    "Bijela kozna"          ,    200},
-    {2124 ,    "Bijela drvena"         ,    150},
-    {2636 ,    "Moderna drvena"        ,    200},
-    {2639 ,    "Pizzastack klupa"      ,    300},
-    {2777 ,    "Stara crna"            ,    250},
-    {2788 ,    "Pizzastack"            ,    135},
-    {19994,    "Restoranska stolica"   ,    120},
-    {19996,    "Stolica na rasklapanje",     70},
-    {1805 ,    "Stolac"                ,     80}
+    {1720, High White, 100},
+    {1721, "Angular", 50},
+    {1739, "High Brown," 200},
+    {1810, "Folding chair", 50},
+    {1811, "Low Wooden", 200},
+    {2079, "Low Black", 170},
+    {2120, "Low Brown", 170},
+    {2121, "Red Folding", 70},
+    {2123, "White Leather", 200},
+    {2124, "White Wooden", 150},
+    {2636, "Modern Wooden", 200},
+    {2639, "Pizzastack Bench", 300},
+    {2777, "Old Black", 250},
+    {2788, Pizzastack, 135},
+    {19994, "Restaurant Chair", 120},
+    {19996, "Folding Chair", 70},
+    {1805, "Chair", 80}
 };
 
 enum E_STOVE_OBJECT_DATA
 {
     stId,
-    stName[33],
+    stName [33],
     stPrice
 }
-new const ObjectsStove[][E_STOVE_OBJECT_DATA] =
+new const ObjectsStove [] [E_STOVE_OBJECT_DATA] =
 {
-    {1733 ,    "Zastareli stednjak"     ,    150},
-    {1777 ,    "Uski zastareli stednjak",    250},
-    {2135 ,    "Moderni sa ormarom"     ,    550},
-    {2144 ,    "Bijeli stednjak1"       ,    270},
-    {2170 ,    "Bijeli stednjak2"       ,    250},
-    {2294 ,    "Crveni sa ormarom"      ,    600},
-    {2417 ,    "Siroki bijeli stednjak" ,    500},
-    {2415 ,    "Stednjak za przenje"    ,    450},
-    {19915,    "Stari stednjak"         ,    350},
-    {19923,    "Stednjak"               ,    500},
-    {19924,    "Napa"                   ,    600},
-    {19933,    "Novi stednjak"          ,    550}
+    {1733, "Obsolete Stove", 150},
+    {1777, "Narrow obsolete stove", 250},
+    {2135, "Modern with wardrobe", 550},
+    {2144, "White Stove1", 270},
+    {2170, "White Stove2", 250},
+    {2294, "Red with Wardrobe", 600},
+    {2417, "Wide White Stove," 500},
+    {2415, "Frying Stove", 450},
+    {19915, "Old Stove", 350},
+    {19923, "Stove", 500},
+    {19924, "Napa", 600},
+    {19933, "New Stove", 550}
 };
 
 enum E_MICROWAVE_OBJECT_DATA
@@ -1138,48 +1138,48 @@ enum E_MICROWAVE_OBJECT_DATA
     mwName[25],
     mwPrice
 }
-new const ObjectsMicroWave[][E_MICROWAVE_OBJECT_DATA] =
+new const ObjectsMicroWave [] [E_MICROWAVE_OBJECT_DATA] =
 {
-    {2421,    "Moderna bela mikrovalna1",    150},
-    {2149,    "Moderna bela mirkovalna2",    170}
+    {2421, "Modern White Microwave1", 150},
+    {2149, "Modern White Microwave2", 170}
 };
 
 enum E_TRASH_CAN_OBJECT_DATA
 {
     tcId,
-    tcName[29],
+    tcName [29],
     tcPrice
 }
-new const ObjectsTrashCan[][E_TRASH_CAN_OBJECT_DATA] =
+new const ObjectsTrashCan [] [E_TRASH_CAN_OBJECT_DATA] =
 {
-    {1235,    "Crna mrezna kanta"           ,    100},
-    {1300,    "Gradska metalna kanta"       ,    150},
-    {1328,    "Kucna metalna kanta"         ,    100},
-    {1329,    "Bijela kanta"                ,     50},
-    {1330,    "Siva kanta"                  ,     70},
-    {1347,    "Ulicna crna kanta"           ,     60},
-    {1359,    "Moderna mrezna kanta"        ,    150},
-    {1371,    "Kanta u obliku nilskog konja",    190},
-    {1549,    "Kanta za cigare"             ,     90}
+    {1235, "Black Net Bucket", 100},
+    {1300, "City Metal Bucket", 150},
+    {1328, "House metal bucket", 100},
+    {1329, "White Bucket", 50},
+    {1330, Gray Bucket, 70},
+    {1347, "Street Black Bucket", 60},
+    {1359, "Modern Network Bucket", 150},
+    {1371, "Hip-shaped bucket", 190},
+    {1549, "Cigar Bin", 90}
 };
 
 enum E_TOILET_OBJECT_DATA
 {
     toId,
-    toName[30],
+    toName [30],
     toPrice
 }
-new const ObjectsToilet[][E_TOILET_OBJECT_DATA] =
+new const ObjectsToilet [] [E_TOILET_OBJECT_DATA] =
 {
-    {2514 ,    "Bijela WC skoljka"      ,    190},
-    {2521 ,    "Moderna bela WC skoljka",    250},
-    {2525 ,    "Bijela WC skoljka"      ,    200},
-    {2528 ,    "Braon-bela WC skoljka"  ,    270},
-    {11707,    "Drzac za peskire"       ,    100},
-    {2602 ,    "Lavabo"                 ,    300},
-    {2739 ,    "Lavabo2"                ,    280},
-    {19874,    "Sapun"                  ,     30},
-    {19873,    "Toilet papir"           ,     10}
+    {2514, "White toilet bowl", 190},
+    {2521, "Modern White Toilet", 250},
+    {2525, "White toilet bowl", 200},
+    {2528, "Brown-and-white toilet bowl," 270},
+    {11707, "Towel Holder", 100},
+    {2602, "Sink", 300},
+    {2739, "Lavabo2", 280},
+    {19874, "Soap", 30},
+    {19873, "Toilet Paper", 10}
 };
 
 enum E_BATH_OBJECT_DATA
@@ -1188,17 +1188,17 @@ enum E_BATH_OBJECT_DATA
     baName[29],
     baPrice
 }
-new const ObjectsBath[][E_BATH_OBJECT_DATA] =
+new const ObjectsBath [] [E_BATH_OBJECT_DATA] =
 {
-    {2517 ,    "Uska kabina za tusiranje"    ,    350},
-    {14481,    "Zastor za kadu"              ,    350},
-    {2519 ,    "Bijela kada"                 ,    400},
-    {2742 ,    "Fen za ruke"                 ,    300},
-    {2520 ,    "Moderna kabina za tusiranje" ,    400},
-    {2527 ,    "Otvorena kabina za tusiranje",    400},
-    {2522 ,    "Moderna kada"                ,    500},
-    {2526 ,    "Drvena kada"                 ,    450},
-    {19809,    "Nova kada"                   ,    550}
+     {2517, "Narrow Shower Enclosure", 350},
+     {14481, "Bath curtain", 350},
+     {2519, "White Tub", 400},
+     {2742, "Hairdryer", 300},
+     {2520, "Modern Shower Enclosure", 400},
+     {2527, "Open Shower Enclosure", 400},
+     {2522, "Modern Tub", 500},
+     {2526, "Wooden Tub", 450},
+     {19809, "New Tub", 550}
 };
 
 enum E_MIRROR_OBJECT_DATA
@@ -1209,7 +1209,7 @@ enum E_MIRROR_OBJECT_DATA
 }
 new const ObjectsMirror[][E_MIRROR_OBJECT_DATA] =
 {
-    {14684,    "Ogledalo",    100}
+    {14684,    "Mirror",    100}
 };
 
 enum E_BEDS_OBJECT_DATA
@@ -1218,30 +1218,30 @@ enum E_BEDS_OBJECT_DATA
     bdName[41],
     bdPrice
 }
-new const ObjectsBed[][E_BEDS_OBJECT_DATA] =
+new const ObjectsBed [] [E_BEDS_OBJECT_DATA] =
 {
-    {1700 ,    "Bracni krevet sa roze posteljinom"       ,    300},
-    {1701 ,    "Bracni krevet sa krem posteljinom"       ,    400},
-    {1725 ,    "Bracni krevet sa smedjom posteljinom"    ,    400},
-    {1745 ,    "Bracni krevet sa plavom posteljinom"     ,    100},
-    {1771 ,    "Zatvorski krevet1"                       ,    100},
-    {1794 ,    "Bracni krevet sa braon posteljinom"      ,    350},
-    {1795 ,    "Swank bracni krevet"                     ,    360},
-    {1796 ,    "Krevet sa braon posteljinom"             ,    100},
-    {1797 ,    "Niski krevet bez posteljine"             ,    400},
-    {1798 ,    "Niski krevet sa plavom posteljinom"      ,    450},
-    {1799 ,    "Niski krevet sa braon posteljinom"       ,    450},
-    {1802 ,    "Decji krevet sa roze posteljinom1"       ,    300},
-    {1803 ,    "Decji krevet sa roze posteljinom2"       ,    400},
-    {1812 ,    "Krevet na rasklapanje"                   ,    100},
-    {2090 ,    "Krevet sa belom posteljinom"             ,    450},
-    {2298 ,    "Bracni krevet sa dva kredenca"           ,    500},
-    {2300 ,    "Bracni krevet sa velikim ormarom"        ,    500},
-    {2301 ,    "Bracni krevet sa malim ormarom"          ,    450},
-    {14446,    "Veliki bracni krevet"                    ,    600},
-    {14866,    "Manji bracni krevet sa belom posteljinom",    500},
-    {2566 ,    "Hotelski crni bracni krevet"             ,    550},
-    {2575 ,    "Hotelski smedji krevet"                  ,    500}
+    {1700, "Double Bed with Pink Bedding," 300},
+    {1701, "Double Bed with Cream Bedding", 400},
+    {1725, "Double Bed with Brown Bedding," 400},
+    {1745, "Double bed with blue sheets", 100},
+    {1771, "Prison Bed1", 100},
+    {1794, "Double Bed with Brown Bedding," 350},
+    {1795, "Swank Double Bed", 360},
+    {1796, "Bed with Brown Bedding," 100},
+    {1797, "Low Bed Without Bedding," 400},
+    {1798, "Low Bed with Blue Bedding," 450},
+    {1799, "Low Bed with Brown Bedding," 450},
+    {1802, "Baby bed with pink bedding1", 300},
+    {1803, "Baby bed with pink bedding2", 400},
+    {1812, "Folding Bed", 100},
+    {2090, "White Bed", 450},
+    {2298, "Double bed with two cupboards", 500},
+    {2300, "Double Bed with Large Wardrobe", 500},
+    {2301, "Double Bed with Small Wardrobe", 450},
+    {14446, "Large Double Bed," 600},
+    {14866, "Small double bed with white linen", 500},
+    {2566, "Hotel Black Double Bed", 550},
+    {2575, "Hotel Brown Bed", 500}
 };
 
 enum E_NIGHTSTAND_OBJECT_DATA
@@ -1263,15 +1263,15 @@ enum E_CHEST_OBJECT_DATA
     cName[29],
     cPrice
 }
-new const ObjectsChest[][E_CHEST_OBJECT_DATA] =
+new const ObjectsChest [] [E_CHEST_OBJECT_DATA] =
 {
-    {1417,    "Zatvoreni drveni ormar"      ,    450},
-    {1741,    "Niski zatvoreni drveni"      ,    150},
-    {1743,    "Niski ormar sa fiokama"      ,    200},
-    {2088,    "Zatvoreni drveni ormar"      ,    400},
-    {2089,    "Niski crni ormar sa fiokama" ,    300},
-    {2307,    "Ormar sa fiokama i policama1",    150},
-    {2329,    "Ormar sa fiokama i policama2",    150}
+     {1417, "Closed wooden cabinet", 450},
+     {1741, "Low Closed Wooden", 150},
+     {1743, "Low closet with drawers", 200},
+     {2088, "Closed wooden cabinet", 400},
+     {2089, "Low Black Drawer Cabinet", 300},
+     {2307, "Wardrobe with drawers and shelves1", 150},
+     {2329, "Wardrobe with drawers and shelves2", 150}
 };
 
 enum E_CLOTHES_OBJECT_DATA
@@ -1280,22 +1280,22 @@ enum E_CLOTHES_OBJECT_DATA
     cloName[29],
     cloPrice
 }
-new const ObjectsClothes[][E_CLOTHES_OBJECT_DATA] =
+new const ObjectsClothes [] [E_CLOTHES_OBJECT_DATA] =
 {
-    {2390 ,    "Donji delovi zelene trenerke",    50},
-    {2391 ,    "Niz odece1"                  ,    60},
-    {2394 ,    "Niz odece2"                  ,    60},
-    {2396 ,    "Gornji delovi crne trenerke" ,    50},
-    {2397 ,    "Bele farmerke"               ,    60},
-    {2398 ,    "Donji delovi plave trenerke" ,    50},
-    {2399 ,    "Beli duksevi"                ,    60},
-    {2401 ,    "Donji delovi crne trenerke"  ,    50},
-    {2819 ,    "Razbacana odeca1"            ,    70},
-    {2843 ,    "Razbacana odeca2"            ,    70},
-    {2844 ,    "Razbacana odeca3"            ,    70},
-    {2845 ,    "Razbacana odeca4"            ,    70},
-    {2846 ,    "Razbacana odeca5"            ,    70},
-    {19921,    "Kofer"                       ,    60}
+     {2390, "Green Tracksuit Bottoms", 50},
+     {2391, "Clothes1", 60},
+     {2394, "Clothes2", 60},
+     {2396, "Black Tracksuit Tops", 50},
+     {2397, "White Jeans", 60},
+     {2398, "Blue Tracksuit Bottoms", 50},
+     {2399, "White Hoodies", 60},
+     {2401, "Black Tracksuit Bottoms", 50},
+     {2819, "Scattered Clothes1", 70},
+     {2843, "Scattered Clothes2", 70},
+     {2844, "Scattered Clothes3", 70},
+     {2845, "Scattered Clothes4", 70},
+     {2846, "Scattered Clothes5", 70},
+     {19921, "Suitcase", 60}
 };
 
 enum E_PLANTS_OBJECT_DATA
